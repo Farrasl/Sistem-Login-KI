@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QR Code 2FA</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+<body class="qr_code">
+    <div class="container_qr">
+        <h1>Selamat Datang {{ username }}!</h1>
+        <h2>Pengaturan Two-Factor Authentication (2FA)</h2>
+        
+        <div class="instructions">
+            <h3>Langkah-langkah:</h3>
+            <ol>
+                <li>Install aplikasi authenticator di smartphone Anda (Google Authenticator, Authy, dll)</li>
+                <li>Scan QR code di bawah ini dengan aplikasi authenticator Anda</li>
+                <li>Atau masukkan kode secret berikut secara manual:</li>
+            </ol>
+        </div>
+
+        <div class="secret">
+            {{ totp_secret }}
+        </div>
+
+        <div class="qr-code">
+            <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code">
+        </div>
+
+        <div class="instructions">
+            <p>Setelah selesai, Anda dapat menggunakan kode dari aplikasi authenticator saat login.</p>
+            <p><strong>PENTING:</strong> Simpan kode secret ini di tempat yang aman sebagai cadangan.</p>
+        </div>
+
+        <p><a href="/login">Lanjut ke halaman login</a></p>
+    </div>
+</body>
+</html>

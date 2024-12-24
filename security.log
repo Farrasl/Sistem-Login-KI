@@ -1,0 +1,401 @@
+2024-12-24 10:01:56,533 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 10:01:56,533 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 10:01:56,535 - INFO -  * Restarting with stat
+2024-12-24 10:01:58,091 - WARNING -  * Debugger is active!
+2024-12-24 10:01:58,101 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 10:02:49,223 - INFO - 127.0.0.1 - - [24/Dec/2024 10:02:49] "GET / HTTP/1.1" 200 -
+2024-12-24 10:02:49,281 - INFO - 127.0.0.1 - - [24/Dec/2024 10:02:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:02:49,631 - INFO - 127.0.0.1 - - [24/Dec/2024 10:02:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-24 10:03:03,692 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:03] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:03:03,938 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:03:06,766 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:06] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:03:07,068 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:03:10,043 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:10] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:03:10,279 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:03:11,161 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:11] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:03:11,475 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:03:15,845 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:15] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:03:15,874 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:15] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:03:24,185 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:24] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 10:03:29,312 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:29] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 10:03:47,517 - INFO - User baru terdaftar: ahmad
+2024-12-24 10:03:47,518 - INFO - 127.0.0.1 - - [24/Dec/2024 10:03:47] "POST /register HTTP/1.1" 200 -
+2024-12-24 10:04:09,300 - INFO - 127.0.0.1 - - [24/Dec/2024 10:04:09] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 10:04:09,627 - INFO - 127.0.0.1 - - [24/Dec/2024 10:04:09] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-24 10:04:09,652 - INFO - 127.0.0.1 - - [24/Dec/2024 10:04:09] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-24 10:04:10,051 - INFO - 127.0.0.1 - - [24/Dec/2024 10:04:10] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-24 10:04:10,285 - INFO - 127.0.0.1 - - [24/Dec/2024 10:04:10] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 10:05:07,257 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:07] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:05:07,300 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:05:18,044 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:18] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:05:18,279 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:18] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:05:19,284 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:19] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:05:19,519 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:05:30,354 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:30] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 10:05:30,417 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 10:05:30,577 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 10:05:30,920 - INFO - 127.0.0.1 - - [24/Dec/2024 10:05:30] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 10:11:58,614 - INFO - 127.0.0.1 - - [24/Dec/2024 10:11:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 10:11:58,687 - INFO - 127.0.0.1 - - [24/Dec/2024 10:11:58] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 10:11:58,829 - INFO - 127.0.0.1 - - [24/Dec/2024 10:11:58] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 10:11:59,172 - INFO - 127.0.0.1 - - [24/Dec/2024 10:11:59] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 10:12:08,996 - INFO - User baru terdaftar: ahmadkurniawan
+2024-12-24 10:12:08,996 - INFO - 127.0.0.1 - - [24/Dec/2024 10:12:08] "POST /register HTTP/1.1" 200 -
+2024-12-24 10:14:08,418 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:08] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:14:08,473 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:14:16,748 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:16] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:14:17,049 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:17] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:14:17,753 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:17] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:14:17,984 - INFO - 127.0.0.1 - - [24/Dec/2024 10:14:17] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:15:17,485 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:17] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:15:17,786 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:17] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:15:46,139 - WARNING - Login gagal untuk user: ahmadkurniawan
+2024-12-24 10:15:46,140 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:46] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-12-24 10:15:51,700 - WARNING - Login gagal untuk user: ahmadkurniawan
+2024-12-24 10:15:51,701 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:51] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-12-24 10:15:54,822 - WARNING - Login gagal untuk user: ahmadkurniawan
+2024-12-24 10:15:54,822 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:54] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2024-12-24 10:15:56,820 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:56] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:15:57,143 - INFO - 127.0.0.1 - - [24/Dec/2024 10:15:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:16:00,071 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:00] "GET /register HTTP/1.1" 200 -
+2024-12-24 10:16:00,311 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:16:30,954 - WARNING - Percobaan login yang terkunci untuk user: ahmadkurniawan
+2024-12-24 10:16:30,954 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:30] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2024-12-24 10:16:37,821 - WARNING - Percobaan login yang terkunci untuk user: ahmadkurniawan
+2024-12-24 10:16:37,822 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:37] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2024-12-24 10:16:40,551 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:40] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:16:40,873 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:40] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:16:42,438 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:42] "GET /register HTTP/1.1" 200 -
+2024-12-24 10:16:42,689 - INFO - 127.0.0.1 - - [24/Dec/2024 10:16:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:17:02,669 - INFO - User baru terdaftar: fajri
+2024-12-24 10:17:02,669 - INFO - 127.0.0.1 - - [24/Dec/2024 10:17:02] "POST /register HTTP/1.1" 200 -
+2024-12-24 10:17:43,027 - INFO - 127.0.0.1 - - [24/Dec/2024 10:17:43] "GET /login HTTP/1.1" 200 -
+2024-12-24 10:17:43,342 - INFO - 127.0.0.1 - - [24/Dec/2024 10:17:43] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 10:17:54,289 - INFO - Login berhasil: fajri
+2024-12-24 10:17:54,294 - INFO - 127.0.0.1 - - [24/Dec/2024 10:17:54] "POST /login HTTP/1.1" 200 -
+2024-12-24 10:57:43,407 - INFO -  * Detected change in 'D:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 10:57:43,691 - INFO -  * Restarting with stat
+2024-12-24 13:15:51,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 13:15:51,903 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 13:15:51,908 - INFO -  * Restarting with stat
+2024-12-24 13:15:53,778 - WARNING -  * Debugger is active!
+2024-12-24 13:15:53,793 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 13:15:59,376 - INFO - 127.0.0.1 - - [24/Dec/2024 13:15:59] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:15:59,437 - INFO - 127.0.0.1 - - [24/Dec/2024 13:15:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:16:01,981 - INFO - 127.0.0.1 - - [24/Dec/2024 13:16:01] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:16:02,267 - INFO - 127.0.0.1 - - [24/Dec/2024 13:16:02] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:17:57,309 - INFO - 127.0.0.1 - - [24/Dec/2024 13:17:57] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:17:57,348 - INFO - 127.0.0.1 - - [24/Dec/2024 13:17:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:18:00,463 - INFO - 127.0.0.1 - - [24/Dec/2024 13:18:00] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:18:00,785 - INFO - 127.0.0.1 - - [24/Dec/2024 13:18:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:19:34,930 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:34] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:19:34,978 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:19:39,131 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:39] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:19:39,458 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:19:42,384 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:42] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:19:42,421 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:19:46,767 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:46] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:19:47,070 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:19:59,353 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:59] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:19:59,410 - INFO - 127.0.0.1 - - [24/Dec/2024 13:19:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:24:49,295 - INFO - 127.0.0.1 - - [24/Dec/2024 13:24:49] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-24 13:24:49,521 - INFO - 127.0.0.1 - - [24/Dec/2024 13:24:49] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-24 13:24:49,686 - INFO - 127.0.0.1 - - [24/Dec/2024 13:24:49] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-24 13:24:50,074 - INFO - 127.0.0.1 - - [24/Dec/2024 13:24:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-24 13:24:50,328 - INFO - 127.0.0.1 - - [24/Dec/2024 13:24:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:25:09,100 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:09] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:25:09,396 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:25:09,442 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:09] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:25:48,652 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:48] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:25:48,694 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:25:48,912 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:48] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:25:51,541 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:51] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:25:51,597 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:25:51,803 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:51] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:25:53,117 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:53] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:25:53,154 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:25:53,366 - INFO - 127.0.0.1 - - [24/Dec/2024 13:25:53] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:26:13,241 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:13] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:26:13,285 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:13] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:26:13,500 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:13] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:26:38,175 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:38] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-12-24 13:26:38,216 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 13:26:38,413 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 13:26:38,738 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:38] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:26:39,000 - INFO - 127.0.0.1 - - [24/Dec/2024 13:26:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:27:00,327 - INFO - 127.0.0.1 - - [24/Dec/2024 13:27:00] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:27:00,621 - INFO - 127.0.0.1 - - [24/Dec/2024 13:27:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 13:27:00,680 - INFO - 127.0.0.1 - - [24/Dec/2024 13:27:00] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:27:04,686 - INFO - 127.0.0.1 - - [24/Dec/2024 13:27:04] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:27:04,934 - INFO - 127.0.0.1 - - [24/Dec/2024 13:27:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:29:03,806 - INFO - 127.0.0.1 - - [24/Dec/2024 13:29:03] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:29:03,854 - INFO - 127.0.0.1 - - [24/Dec/2024 13:29:03] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:33:13,024 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:13] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:33:13,056 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:13] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:33:45,113 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:45] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 13:33:45,181 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 13:33:45,182 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 13:33:45,622 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:33:45,867 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:45] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:33:56,102 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:56] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 13:33:56,170 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:56] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 13:33:56,322 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:56] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 13:33:56,662 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:56] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:33:56,926 - INFO - 127.0.0.1 - - [24/Dec/2024 13:33:56] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:34:00,915 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:00] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-12-24 13:34:00,975 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:00] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 13:34:01,138 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:01] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 13:34:01,475 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:01] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:34:01,738 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:01] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:34:30,936 - INFO - User baru terdaftar: fajir
+2024-12-24 13:34:30,937 - INFO - 127.0.0.1 - - [24/Dec/2024 13:34:30] "POST /register HTTP/1.1" 200 -
+2024-12-24 13:35:06,231 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:06] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:35:06,270 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:06] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:35:06,490 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:06] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:35:25,580 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:25] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:35:25,613 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 13:35:25,834 - INFO - 127.0.0.1 - - [24/Dec/2024 13:35:25] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:36:08,602 - INFO - 127.0.0.1 - - [24/Dec/2024 13:36:08] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:36:08,638 - INFO - 127.0.0.1 - - [24/Dec/2024 13:36:08] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:36:08,849 - INFO - 127.0.0.1 - - [24/Dec/2024 13:36:08] "[33mGET /static/uinsuska.png HTTP/1.1[0m" 404 -
+2024-12-24 13:36:25,137 - INFO - 127.0.0.1 - - [24/Dec/2024 13:36:25] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:36:25,175 - INFO - 127.0.0.1 - - [24/Dec/2024 13:36:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 13:37:27,972 - INFO - 127.0.0.1 - - [24/Dec/2024 13:37:27] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:37:28,012 - INFO - 127.0.0.1 - - [24/Dec/2024 13:37:28] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:38:32,110 - INFO - 127.0.0.1 - - [24/Dec/2024 13:38:32] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 13:38:32,160 - INFO - 127.0.0.1 - - [24/Dec/2024 13:38:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 13:38:32,342 - INFO - 127.0.0.1 - - [24/Dec/2024 13:38:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 13:38:32,668 - INFO - 127.0.0.1 - - [24/Dec/2024 13:38:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:38:32,933 - INFO - 127.0.0.1 - - [24/Dec/2024 13:38:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 13:58:38,045 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:38] "GET / HTTP/1.1" 200 -
+2024-12-24 13:58:38,173 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:38] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 13:58:38,335 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-24 13:58:45,061 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:45] "GET / HTTP/1.1" 200 -
+2024-12-24 13:58:45,121 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 13:58:50,629 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:50] "GET /register HTTP/1.1" 200 -
+2024-12-24 13:58:50,944 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 13:58:54,420 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:54] "GET /login HTTP/1.1" 200 -
+2024-12-24 13:58:54,685 - INFO - 127.0.0.1 - - [24/Dec/2024 13:58:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 14:15:04,590 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 14:15:05,132 - INFO -  * Restarting with stat
+2024-12-24 14:15:07,120 - WARNING -  * Debugger is active!
+2024-12-24 14:15:07,132 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 14:22:54,361 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 14:22:54,554 - INFO -  * Restarting with stat
+2024-12-24 14:22:55,591 - WARNING -  * Debugger is active!
+2024-12-24 14:22:55,612 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 15:59:41,426 - INFO - User baru terdaftar: fajir
+2024-12-24 15:59:41,426 - INFO - 127.0.0.1 - - [24/Dec/2024 15:59:41] "POST /register HTTP/1.1" 200 -
+2024-12-24 15:59:42,764 - INFO - 127.0.0.1 - - [24/Dec/2024 15:59:42] "GET /register HTTP/1.1" 200 -
+2024-12-24 15:59:42,882 - INFO - 127.0.0.1 - - [24/Dec/2024 15:59:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 15:59:59,627 - INFO - User baru terdaftar: ahmad
+2024-12-24 15:59:59,627 - INFO - 127.0.0.1 - - [24/Dec/2024 15:59:59] "POST /register HTTP/1.1" 200 -
+2024-12-24 16:00:30,700 - INFO - 127.0.0.1 - - [24/Dec/2024 16:00:30] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 16:00:37,017 - INFO - 127.0.0.1 - - [24/Dec/2024 16:00:37] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 16:03:13,546 - INFO - 127.0.0.1 - - [24/Dec/2024 16:03:13] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:03:13,596 - INFO - 127.0.0.1 - - [24/Dec/2024 16:03:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:03:31,482 - INFO - User baru terdaftar: ahmadkurniawan
+2024-12-24 16:03:31,483 - INFO - 127.0.0.1 - - [24/Dec/2024 16:03:31] "POST /register HTTP/1.1" 200 -
+2024-12-24 16:12:36,862 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:12:36,906 - INFO -  * Restarting with stat
+2024-12-24 16:15:06,017 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 16:15:06,018 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 16:15:06,024 - INFO -  * Restarting with stat
+2024-12-24 16:15:06,395 - WARNING -  * Debugger is active!
+2024-12-24 16:15:06,403 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:15:11,465 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:11] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:15:11,521 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:15:13,373 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:13] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:15:13,687 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:15:30,654 - INFO - User baru terdaftar: fajri
+2024-12-24 16:15:30,655 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 16:15:30,684 - INFO - 127.0.0.1 - - [24/Dec/2024 16:15:30] "GET /qr-code HTTP/1.1" 200 -
+2024-12-24 16:16:21,298 - INFO - 127.0.0.1 - - [24/Dec/2024 16:16:21] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:16:21,605 - INFO - 127.0.0.1 - - [24/Dec/2024 16:16:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:19:43,393 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:19:43,421 - INFO -  * Restarting with stat
+2024-12-24 16:19:43,790 - WARNING -  * Debugger is active!
+2024-12-24 16:19:43,797 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:19:52,982 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:19:53,016 - INFO -  * Restarting with stat
+2024-12-24 16:19:53,386 - WARNING -  * Debugger is active!
+2024-12-24 16:19:53,394 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:22:37,608 - INFO - 127.0.0.1 - - [24/Dec/2024 16:22:37] "[32mGET /qr-code HTTP/1.1[0m" 302 -
+2024-12-24 16:22:37,619 - INFO - 127.0.0.1 - - [24/Dec/2024 16:22:37] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:25:26,849 - INFO - 127.0.0.1 - - [24/Dec/2024 16:25:26] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 16:25:33,528 - INFO - 127.0.0.1 - - [24/Dec/2024 16:25:33] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 16:25:50,816 - INFO - User baru terdaftar: aditya
+2024-12-24 16:25:50,816 - INFO - 127.0.0.1 - - [24/Dec/2024 16:25:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 16:25:50,844 - INFO - 127.0.0.1 - - [24/Dec/2024 16:25:50] "GET /qr-code HTTP/1.1" 200 -
+2024-12-24 16:25:51,225 - INFO - 127.0.0.1 - - [24/Dec/2024 16:25:51] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 16:28:29,015 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:28:29,047 - INFO -  * Restarting with stat
+2024-12-24 16:28:29,450 - WARNING -  * Debugger is active!
+2024-12-24 16:28:29,456 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:29:08,086 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:29:08,115 - INFO -  * Restarting with stat
+2024-12-24 16:29:08,475 - WARNING -  * Debugger is active!
+2024-12-24 16:29:08,482 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:29:31,253 - INFO - 127.0.0.1 - - [24/Dec/2024 16:29:31] "[32mGET /qr-code HTTP/1.1[0m" 302 -
+2024-12-24 16:29:31,264 - INFO - 127.0.0.1 - - [24/Dec/2024 16:29:31] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:29:31,531 - INFO - 127.0.0.1 - - [24/Dec/2024 16:29:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:31:21,010 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:21] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:31:21,026 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:21] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 16:31:34,800 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:34] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:31:35,100 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:35] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-24 16:31:58,979 - INFO - User baru terdaftar: kurniawan
+2024-12-24 16:31:58,980 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 16:31:59,006 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:59] "GET /qr-code HTTP/1.1" 200 -
+2024-12-24 16:31:59,240 - INFO - 127.0.0.1 - - [24/Dec/2024 16:31:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:33:32,980 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:33:33,009 - INFO -  * Restarting with stat
+2024-12-24 16:33:33,414 - WARNING -  * Debugger is active!
+2024-12-24 16:33:33,423 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:33:43,628 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:33:43,668 - INFO -  * Restarting with stat
+2024-12-24 16:33:44,049 - WARNING -  * Debugger is active!
+2024-12-24 16:33:44,056 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:33:57,907 - INFO - 127.0.0.1 - - [24/Dec/2024 16:33:57] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:33:57,951 - INFO - 127.0.0.1 - - [24/Dec/2024 16:33:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:34:07,362 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 16:34:07,667 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:07] "GET /otp HTTP/1.1" 200 -
+2024-12-24 16:34:08,003 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:34:19,409 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:19] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:34:19,716 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:19] "GET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-24 16:34:19,747 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:19] "GET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-24 16:34:20,083 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:20] "GET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-24 16:34:20,346 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:20] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:34:28,417 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:28] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:34:28,727 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:28] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:34:28,742 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:28] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:34:29,055 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:29] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:34:29,316 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:29] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:34:40,751 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:40] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:34:41,064 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:41] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:34:41,095 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:41] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:34:41,419 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:41] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:34:54,345 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:54] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:34:54,653 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:54] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:34:54,684 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:54] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:34:55,007 - INFO - 127.0.0.1 - - [24/Dec/2024 16:34:55] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:36:04,026 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:04] "[32mGET /qr-code HTTP/1.1[0m" 302 -
+2024-12-24 16:36:04,039 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:04] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:36:04,360 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:36:16,762 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:16] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2024-12-24 16:36:42,274 - INFO - User baru terdaftar: abdul
+2024-12-24 16:36:42,274 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 16:36:42,301 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:42] "GET /qr-code HTTP/1.1" 200 -
+2024-12-24 16:36:42,648 - INFO - 127.0.0.1 - - [24/Dec/2024 16:36:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:37:00,047 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:00] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:37:10,728 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 16:37:11,039 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:11] "GET /otp HTTP/1.1" 200 -
+2024-12-24 16:37:11,380 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:37:22,624 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:22] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:37:22,932 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:22] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:37:22,964 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:22] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:37:23,286 - INFO - 127.0.0.1 - - [24/Dec/2024 16:37:23] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:38:57,475 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:38:57,509 - INFO -  * Restarting with stat
+2024-12-24 16:38:57,875 - WARNING -  * Debugger is active!
+2024-12-24 16:38:57,882 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:39:12,085 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:12] "GET /otp HTTP/1.1" 200 -
+2024-12-24 16:39:12,132 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:39:20,629 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:20] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:39:20,940 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:20] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:39:20,970 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:20] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:39:21,294 - INFO - 127.0.0.1 - - [24/Dec/2024 16:39:21] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:42:51,636 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:42:51,681 - INFO -  * Restarting with stat
+2024-12-24 16:42:52,042 - WARNING -  * Debugger is active!
+2024-12-24 16:42:52,052 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:43:00,194 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:43:00,222 - INFO -  * Restarting with stat
+2024-12-24 16:48:57,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 16:48:57,145 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 16:48:57,151 - INFO -  * Restarting with stat
+2024-12-24 16:48:57,550 - WARNING -  * Debugger is active!
+2024-12-24 16:48:57,558 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:49:02,552 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:02] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:49:02,606 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:02] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:49:02,807 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:02] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:49:03,142 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:03] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:49:03,405 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:03] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:49:04,304 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:04] "[32mGET /qr-code HTTP/1.1[0m" 302 -
+2024-12-24 16:49:04,613 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:04] "GET /register HTTP/1.1" 200 -
+2024-12-24 16:49:04,931 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:49:11,179 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:11] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:49:15,394 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:15] "GET /otp HTTP/1.1" 200 -
+2024-12-24 16:49:15,700 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:49:30,576 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 16:49:30,582 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:30] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:49:30,832 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:49:46,126 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:46] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-24 16:49:46,132 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:46] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:49:46,379 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:49:51,517 - INFO - 127.0.0.1 - - [24/Dec/2024 16:49:51] "[33mGET /beranda HTTP/1.1[0m" 404 -
+2024-12-24 16:50:09,106 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-24 16:50:09,114 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:09] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:50:09,449 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:50:32,849 - WARNING - Login gagal untuk user: abdul
+2024-12-24 16:50:32,850 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 16:50:33,158 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:33] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:50:33,484 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:50:40,698 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 16:50:41,013 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:41] "GET /otp HTTP/1.1" 200 -
+2024-12-24 16:50:41,354 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 16:50:50,318 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:50] "[35m[1mPOST /verify-otp HTTP/1.1[0m" 500 -
+2024-12-24 16:50:50,620 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:50] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:50:50,660 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:50] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:50:50,986 - INFO - 127.0.0.1 - - [24/Dec/2024 16:50:50] "[36mGET /verify-otp?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:52:02,801 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:52:02,831 - INFO -  * Restarting with stat
+2024-12-24 16:52:03,246 - WARNING -  * Debugger is active!
+2024-12-24 16:52:03,253 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:52:04,305 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:52:04,334 - INFO -  * Restarting with stat
+2024-12-24 16:52:04,691 - WARNING -  * Debugger is active!
+2024-12-24 16:52:04,700 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:52:13,856 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:52:13,900 - INFO -  * Restarting with stat
+2024-12-24 16:52:14,792 - WARNING -  * Debugger is active!
+2024-12-24 16:52:14,798 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:53:05,036 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:53:05,138 - INFO -  * Restarting with stat
+2024-12-24 16:53:05,550 - WARNING -  * Debugger is active!
+2024-12-24 16:53:05,558 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:53:16,744 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:53:16,784 - INFO -  * Restarting with stat
+2024-12-24 16:53:17,602 - WARNING -  * Debugger is active!
+2024-12-24 16:53:17,608 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 16:54:24,476 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:24] "GET /login HTTP/1.1" 200 -
+2024-12-24 16:54:29,687 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:29] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 16:54:30,013 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 16:54:30,016 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 16:54:30,342 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:54:30,587 - INFO - 127.0.0.1 - - [24/Dec/2024 16:54:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 16:54:52,143 - INFO -  * Detected change in 'd:\\Keamanan Informasi\\UAS Keamanan Informasi\\app.py', reloading
+2024-12-24 16:54:52,216 - INFO -  * Restarting with stat
+2024-12-24 17:00:46,964 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 17:00:46,965 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-24 17:00:46,971 - INFO -  * Restarting with stat
+2024-12-24 17:00:47,360 - WARNING -  * Debugger is active!
+2024-12-24 17:00:47,368 - INFO -  * Debugger PIN: 809-613-829
+2024-12-24 17:00:52,018 - INFO - User baru terdaftar: abdul
+2024-12-24 17:00:52,019 - INFO - 127.0.0.1 - - [24/Dec/2024 17:00:52] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 17:00:52,048 - INFO - 127.0.0.1 - - [24/Dec/2024 17:00:52] "GET /qr-code HTTP/1.1" 200 -
+2024-12-24 17:00:52,306 - INFO - 127.0.0.1 - - [24/Dec/2024 17:00:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 17:01:37,031 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 17:01:37,041 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:37] "GET /otp HTTP/1.1" 200 -
+2024-12-24 17:01:37,269 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 17:01:48,354 - INFO - Login berhasil: abdul
+2024-12-24 17:01:48,355 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:48] "[32mPOST /verify-otp HTTP/1.1[0m" 302 -
+2024-12-24 17:01:48,362 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:48] "GET /dashboard HTTP/1.1" 200 -
+2024-12-24 17:01:48,610 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 17:01:53,415 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:53] "[32mGET /otp HTTP/1.1[0m" 302 -
+2024-12-24 17:01:53,423 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:53] "GET /login HTTP/1.1" 200 -
+2024-12-24 17:01:53,663 - INFO - 127.0.0.1 - - [24/Dec/2024 17:01:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

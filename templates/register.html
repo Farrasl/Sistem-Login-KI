@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="register-body">
+    <div id="register-container">
+        <h1>Register</h1>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <form method="POST" action="{{ url_for('register') }}">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan Username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                <small>Password harus minimal 8 karakter</small>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Konfirmasi Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Konfirmasi Password" required>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+        <p>Sudah punya akun? <a href="{{ url_for('login') }}">Login</a></p>
+    </div>
+</body>
+</html>

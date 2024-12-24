@@ -1,0 +1,44 @@
+{
+    "fajir": {
+        "username": "fajir",
+        "password": "sha256$IlabpwjSDRs0mntb$40c895ee3e3cf6951193c16d0a80b7d60bc69d149b695fe3337a9d6f44ae578d",
+        "totp_secret": "3FO3PRB2TOMJH5QJEALSPV5JEMN6SRHO",
+        "failed_attempts": 0,
+        "locked_until": null
+    },
+    "ahmad": {
+        "username": "ahmad",
+        "password": "sha256$sHleklVEYL41wjtt$f01e8559a0d8402955909c4f1820f876cebb2655ecea392100611eff065a62c8",
+        "totp_secret": "LBA3GO4WOGMUEGINKU6VESSUDNMMOTYX",
+        "failed_attempts": 0,
+        "locked_until": null
+    },
+    "ahmadkurniawan": {
+        "username": "ahmadkurniawan",
+        "password": "sha256$KnS7jk39bqbXaesS$61a47a096214fde59303281ff93a9955e7356b737583ea460ccb41e8b098ed67",
+        "totp_secret": "JBZWUDO74CWTXHTILEL5J737LCLFH5KJ",
+        "failed_attempts": 0,
+        "locked_until": null
+    },
+    "fajri": {
+        "username": "fajri",
+        "password": "sha256$TkTWuoxMcFMZcJZ9$f16dbb49eef6a48adfc5d68c7d5d98fa298a4ccc5addf4403253b461da66096d",
+        "totp_secret": "ILB537ZA3TLCCSJVQBA5JZHDV6B47CTW",
+        "failed_attempts": 0,
+        "locked_until": null
+    },
+    "aditya": {
+        "username": "aditya",
+        "password": "sha256$59ttSYl8rBL50dYK$40ac7e8916b45b4fba46415b9c7c3309d5b03ab0dd9e3f53ae89ac5306770fe8",
+        "totp_secret": "ZKBWRP2PIKL4VJTILOYYI7PZLZAEOFCD",
+        "failed_attempts": 0,
+        "locked_until": null
+    },
+    "abdul": {
+        "username": "abdul",
+        "password": "sha256$GsrCW5ujlATKl7Hu$7917e411054664d0c599204b6a80e446d869170172a6a6ee75ae5b111df31bf2",
+        "totp_secret": "2FNTJT5QNRY7JANRMR6KRYCMP3LS3UPA",
+        "failed_attempts": 0,
+        "locked_until": null
+    }
+}

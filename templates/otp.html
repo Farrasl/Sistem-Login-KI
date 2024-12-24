@@ -1,0 +1,27 @@
+<!-- templates/otp.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="login-container">
+    <div class="login-form">
+        <h2>Verifikasi OTP</h2>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <form method="POST" action="{{ url_for('verify_otp') }}">
+            <input type="hidden" name="username" value="{{ username }}">
+            <input type="text" placeholder="Masukkan kode OTP" name="totp_code" required>
+            <button type="submit">Verifikasi</button>
+        </form>
+    </div>
+</body>
+</html>
